@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  gameoflife-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5050:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:8080
+      - ConnectionStrings__DefaultConnection=Data Source=gameoflife.db
+    volumes:
+      - gameoflife-data:/app/BoardData
+
+volumes:
+  gameoflife-data:
+  

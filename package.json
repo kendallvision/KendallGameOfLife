@@ -1,0 +1,11 @@
+{
+	"name": "KendallGameOfLife",
+	"version": "1.0.0",
+	"license": "MIT",	
+	"scripts": {
+		"start": "dotnet run --project GameOfLife.API",
+		"build": "dotnet build",
+		"test": "dotnet test",
+		"test-verbose": "dotnet test --logger \"console;verbosity=detailed\""
+	}
+}
