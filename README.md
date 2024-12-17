@@ -14,8 +14,8 @@ This project implements Conway's Game of Life as a RESTful API using .NET 8.0. I
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/game-of-life.git
-cd game-of-life
+git clone https://github.com/kendallvision/KendallGameOfLife.git
+cd KendallGameOfLife
 ```
 
 2. Build the solution
